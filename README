@@ -1,24 +1,24 @@
-xde-theme-airforce -- read me first file.  2013-12-23
+xde-theme-warthogs -- read me first file.  2013-12-23
 
-xde-theme-airforce
+xde-theme-warthogs
 ==================
 
-Package xde-theme-airforce-1.1 was released under CCPL:cc-by-nc-nd-3.0
-license 2013-12-23.
+Package xde-theme-warthogs-1.4 was released under CCPL:cc-by-nc-nd-3.0
+license 2018-06-04.
 
 This is a theme and a set of backgrounds for the XDE (X Desktop
-Environment) which provides a set of backgrounds on a Airforce theme.
+Environment) which provides a set of backgrounds on a Warthogs theme.
 This theme uses the Squared-green style from the xde-styles package.
 
 Release
 -------
 
-This is the xde-theme-airforce-1.1 package, released 2013-12-23.  This
+This is the xde-theme-warthogs-1.4 package, released 2018-06-04.  This
 release, and the latest version, can be obtained from the GitHub
-repository at (http://github.com/bbidulock/xde-theme-airforce), using a
+repository at (http://github.com/bbidulock/xde-theme-warthogs), using a
 command such as:
 
-    $> git clone http://github.com/bbidulock/xde-theme-airforce.git
+    $> git clone http://github.com/bbidulock/xde-theme-warthogs.git
 
 Please see the `NEWS' file for release notes and history of user visible
 changes for the current version, and the `ChangeLog' file for a more
@@ -38,17 +38,17 @@ this license).  Please see the license in the file `COPYING'.
 Quick Start:
 ------------
 
-The quickest and easiest way to get xde-theme-airforce up and running is
+The quickest and easiest way to get xde-theme-warthogs up and running is
 to run the following commands:
 
-    $> git clone http://github.com/bbidulock/xde-theme-airforce.git
-    $> cd xde-theme-airforce
+    $> git clone http://github.com/bbidulock/xde-theme-warthogs.git
+    $> cd xde-theme-warthogs
     $> ./autogen.sh
     $> ./configure --prefix=/usr
     $> make V=0
     $> make DESTDIR="$pkgdir" install
 
-This will configure, compile and install xde-theme-airforce the
+This will configure, compile and install xde-theme-warthogs the
 quickest.  For those who would like to spend the extra 15 seconds
 reading ./configure --help, some compile time options can be turned on
 and off before the build.

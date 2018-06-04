@@ -1,6 +1,6 @@
 
 AC_PREREQ(2.69)
-AC_INIT([xde-theme-airforce],[1.4],[bugs@openss7.org],[xde-theme-airforce])
+AC_INIT([xde-theme-warthogs],[1.4],[bugs@openss7.org],[xde-theme-warthogs])
 AC_REVISION([1.1])
 
 AC_CONFIG_SRCDIR([configure.ac])
@@ -22,10 +22,10 @@ eval "sharedir=\"$sharedir\""
 
 AC_SUBST([sharedir])
 
-style='Airforce'
+style='Warthogs'
 AC_SUBST([style])
 
-stylesubdir='airforce'
+stylesubdir='warthogs'
 AC_SUBST([stylesubdir])
 
 basestyle='Squared-green'

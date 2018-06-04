@@ -1,5 +1,19 @@
 # created with git log --stat=76 | fmt -sct -w80
 
+commit edd9d15e1e0f9eb0c94165dc35ec2194d372d9e0
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Jun 4 03:50:09 2018 -0600
+
+    reorganize
+
+ COPYING                  | 674 +++++++++++++++++++++++++++++++++++++++++++
+ ChangeLog                |  30 ++
+ INSTALL                  | 368 +++++++++++++++++++++++
+ Makefile.am              |   5 +-
+ configure.ac             | 138 +++++++++
+ theme/{wmaker => }/style |   0
+ 6 files changed, 1211 insertions(+), 4 deletions(-)
+
 commit f66531ba7d7fc04df57c8002babc6bce94783941
 Author: Brian Bidulock <bidulock@openss7.org>
 Date:   Mon Jun 4 03:46:21 2018 -0600

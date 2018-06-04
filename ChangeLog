@@ -1,2 +1,32 @@
 # created with git log --stat=76 | fmt -sct -w80
 
+commit f66531ba7d7fc04df57c8002babc6bce94783941
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Jun 4 03:46:21 2018 -0600
+
+    initial commit
+
+ AUTHORS                       |   3 +
+ ChangeLog                     |   2 +
+ Makefile.am                   |  79 ++++++++++++++++++++++
+ NEWS                          |  10 +++
+ README                        |  65 ++++++++++++++++++
+ THANKS                        |   3 +
+ autogen.sh                    |  19 ++++++
+ configure.ac                  |   0
+ configure.template            | 138 ++++++++++++++++++++++++++++++++++++++
+ images/razorback_range.jpg    | Bin 0 -> 782226 bytes
+ images/warthog_banking.jpg    | Bin 0 -> 400902 bytes
+ images/warthog_firing.jpg     | Bin 0 -> 289524 bytes
+ images/warthog_front.jpg      | Bin 0 -> 402122 bytes
+ images/warthog_missile.jpg    | Bin 0 -> 276673 bytes
+ images/warthog_refueling.jpg  | Bin 0 -> 438731 bytes
+ images/warthog_runway.jpg     | Bin 0 -> 144828 bytes
+ images/warthogs.jpg           | Bin 0 -> 469860 bytes
+ images/warthogs_formation.jpg | Bin 0 -> 413942 bytes
+ theme/adwm/themerc            |  58 ++++++++++++++++
+ theme/gtkrc-2.0               |  27 ++++++++
+ theme/theme.ini               | 100 +++++++++++++++++++++++++++
+ theme/themerc                 |  84 +++++++++++++++++++++++
+ theme/wmaker/style            |  45 +++++++++++++
+ 23 files changed, 633 insertions(+)

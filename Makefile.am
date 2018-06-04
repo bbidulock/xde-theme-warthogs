@@ -6,10 +6,7 @@ dist_xdetheme_DATA = \
 	theme/themerc
 
 dist_wmakertheme_DATA = \
-	theme/wmaker/style
-
-dist_adwmtheme_DATA = \
-	theme/adwm/themerc
+	theme/style
 
 dist_xdeimage_DATA = \
 	images/warthogs_formation.jpg \

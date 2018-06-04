@@ -28,10 +28,10 @@ AC_SUBST([style])
 stylesubdir='warthogs'
 AC_SUBST([stylesubdir])
 
-basestyle='Squared-green'
+basestyle='Squared-cadet'
 AC_SUBST([basestyle])
 
-baseprefix='sg'
+baseprefix='sc'
 AC_SUBST([baseprefix])
 
 adwmdir='$(datadir)/adwm'

@@ -1,0 +1,84 @@
+XDE-Theme*Name:				Warthogs
+XDE-Theme*Style:			Squared-cadet
+
+XDE-Theme*WallpaperDefault:		warthogs_formation
+XDE-Theme*WallpaperRepeat:		true
+
+XDE-Theme*Wallpaper0:			warthogs_formation
+XDE-Theme*Wallpaper1:			warthog_missile
+XDE-Theme*Wallpaper2:			warthog_banking
+XDE-Theme*Wallpaper3:			warthogs
+XDE-Theme*Wallpaper4:			warthog_firing
+XDE-Theme*Wallpaper5:			warthog_refueling
+XDE-Theme*Wallpaper6:			razorback_range
+XDE-Theme*Wallpaper7:			warthog_front
+
+XDE-Theme*Workspaces:			8
+XDE-Theme*WorkspaceNames:		\ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 
+
+XDE-Theme*WorkspaceColor:		rgb:00/20/40
+XDE-Theme*WorkspaceCenter:		0
+XDE-Theme*WorkspaceScaled:		0
+XDE-Theme*WorkspaceTiled:		0
+XDE-Theme*WorkspaceFull:		1
+XDE-Theme*WorkspaceImage:		warthogs/warthogs_formation.jpg
+
+XDE-Theme*Workspace0Image:		warthogs/warthogs_formation.jpg
+XDE-Theme*Workspace1Image:		warthogs/warthog_missile.jpg
+XDE-Theme*Workspace2Image:		warthogs/warthog_banking.jpg
+XDE-Theme*Workspace3Image:		warthogs/warthogs.jpg
+XDE-Theme*Workspace4Image:		warthogs/warthog_firing.jpg
+XDE-Theme*Workspace5Image:		warthogs/warthog_refueling.jpg
+XDE-Theme*Workspace6Image:		warthogs/razorback_range.jpg
+XDE-Theme*Workspace7Image:		warthogs/warthog_front.jpg
+
+XDE-Theme.blackbox.WorkspaceNames:	Workspace 1,Workspace 2,Workpsace 3,Workspace 4,Workspace 5,Workspace 6,Workspace 7,Workspace 8
+
+XDE-Theme.openxbox.WorkspaceNames:	1,2,3,4,5,6,7,8
+
+XDE-Theme.icewm.WorkspaceNames:		\ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 
+
+XDE-Theme.jwm.WorkspaceNames:		1,2,3,4,5,6,7,8
+
+XDE-Theme.ctwm.WorkspaceNames:		1,2,3,4,5,6,7,8
+
+XDE-Theme.vtwm.WorkspaceNames:		1,2,3,4,5,6,7,8
+
+XDE-Theme.twm.Workspaces:		1
+XDE-Theme.twm.WorkspaceNames:		1,2,3,4,5,6,7,8
+
+XSettings*gtk-button-images:			1
+!XSettings*gtk-color-scheme:			
+XSettings*gtk-cursor-theme-name:		Bluecurve
+XSettings*gtk-cursor-theme-size:		18
+XSettings*gtk-enable-event-sounds:		1
+XSettings*gtk-enable-input-feedback-sounds:	1
+XSettings*gtk-enable-sounds:			1
+XSettings*gtk-fallback-icon-theme:		hicolor
+XSettings*gtk-font-name:			Liberation Sans 9
+!XSettings*gtk-icon-sizes:			
+XSettings*gtk-icon-theme-name:			gnome-brave
+!XSettings*gtk-key-theme-name:			
+XSettings*gtk-menu-bar-accel:			F10
+XSettings*gtk-menu-images:			1
+XSettings*gtk-sound-theme-name:			freedesktop
+XSettings*gtk-theme-name:			Mist
+XSettings*gtk-toolbar-icon-size:		GTK_ICON_SIZE_LARGE_TOOLBAR
+XSettings*gtk-toolbar-style:			GTK_TOOLBAR_BOTH
+XSettings*gtk-xft-antialias:			1
+XSettings*gtk-xft-hinting:			1
+XSettings*gtk-xft-hintstyle:			hintful
+XSettings*gtk-xft-rgba:				rgb
+XSettings*net-enable-event-sounds:		1
+XSettings*net-enable-input-feedback-sounds:	1
+XSettings*net-icon-theme-name:			gnome-brave
+XSettings*net-theme-name:			Mist
+XSettings*xde-menu-theme-name:			Squared-cadet
+XSettings*xde-theme-name:			Warthogs
+XSettings*xft-antialias:			1
+XSettings*xft-hinting:				1
+XSettings*xft-hintstyle:			hintful
+XSettings*xft-rgba:				rgb
+
+! vim: ft=xdefaults
+

@@ -1,0 +1,27 @@
+# DO NOT EDTI! This file will be overwritten by xde-setbg.
+# Any customization should be done in ~/.gtkrc-2.0.mine instead.
+
+gtk-button-images=1
+#gtk-color-scheme=
+#gtk-cursor-theme-name=
+gtk-cursor-theme-size=0
+gtk-enable-input-feedback-sounds=1
+gtk-enable-event-sounds=1
+gtk-fallback-icon-theme="hicolor"
+gtk-font-name="Liberation Sans 9"
+#gtk-icon-sizes=
+gtk-icon-theme-name="Mist"
+#gtk-key-theme-name=
+gtk-menu-bar-accel="F10"
+gtk-menu-images=1
+gtk-sound-theme-name="freedesktop"
+gtk-theme-name="Squared-grey"
+gtk-toolbar-icon-size=2
+gtk-toolbar-style=2
+
+gtk-xft-antialias=1
+gtk-xft-hinting=1
+gtk-xft-hintstyle="hintfull"
+gtk-xft-rgba="rgb"
+
+include "~/.gtkrc-2.0.mine"

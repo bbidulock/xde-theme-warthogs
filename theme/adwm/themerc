@@ -1,0 +1,58 @@
+Adwm*theme.name:			Warthogs
+Adwm*theme.author:			Brian Bidulock
+Adwm*theme.date:			Mon Jun 4 2018
+Adwm*theme.credits:			
+Adwm*theme.comments:			For unexicon.
+
+Adwm*styleName:				Squared-cadet
+Adwm*styleFile:				stylerc
+Adwm*dockFile:				dockrc
+Adwm*keysFile:				keysrc
+
+Adwm*tags.number:			8
+Adwm*tags.rows:				2
+Adwm*tags.cols:				4
+
+Adwm*tags.name0:			1
+Adwm*tags.name1:			2
+Adwm*tags.name2:			3
+Adwm*tags.name3:			4
+Adwm*tags.name4:			5
+Adwm*tags.name5:			6
+Adwm*tags.name6:			7
+Adwm*tags.name7:			8
+
+Adwm*tags.image.repeat:			1
+
+Adwm*tags.color:			rgb:00/20/40
+!Adwm*tags.color0:			rgb:00/20/40
+!Adwm*tags.color1:			rgb:00/20/40
+!Adwm*tags.color2:			rgb:00/20/40
+!Adwm*tags.color3:			rgb:00/20/40
+!Adwm*tags.color4:			rgb:00/20/40
+!Adwm*tags.color5:			rgb:00/20/40
+!Adwm*tags.color6:			rgb:00/20/40
+!Adwm*tags.color7:			rgb:00/20/40
+
+Adwm*tags.image:			warthogs/warthogs_formation.jpg
+Adwm*tags.image0:			warthogs/warthogs_formation.jpg
+Adwm*tags.image1:			warthogs/warthog_missile.jpg
+Adwm*tags.image2:			warthogs/warthog_banking.jpg
+Adwm*tags.image3:			warthogs/warthogs.jpg
+Adwm*tags.image4:			warthogs/warthog_firing.jpg
+Adwm*tags.image5:			warthogs/warthog_refueling.jpg
+Adwm*tags.image6:			warthogs/razorback_range.jpg
+Adwm*tags.image7:			warthogs/warthog_front.jpg
+
+Adwm*tags.image.how:			4
+!Adwm*tags.image0.how:			clipped
+!Adwm*tags.image1.how:			clipped
+!Adwm*tags.image2.how:			clipped
+!Adwm*tags.image3.how:			clipped
+!Adwm*tags.image4.how:			clipped
+!Adwm*tags.image5.how:			clipped
+!Adwm*tags.image6.how:			clipped
+!Adwm*tags.image7.how:			clipped
+
+
+! vim: set ft=xdefaults:

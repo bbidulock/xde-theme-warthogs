@@ -1,6 +1,6 @@
 
 AC_PREREQ(2.69)
-AC_INIT([xde-theme-warthogs],[1.4],[bugs@openss7.org],[xde-theme-warthogs])
+AC_INIT([xde-theme-warthogs],[1.1],[bugs@openss7.org],[xde-theme-warthogs])
 AC_REVISION([1.1])
 
 AC_CONFIG_SRCDIR([configure.ac])

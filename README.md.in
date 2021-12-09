@@ -1,10 +1,10 @@
-[xde-theme-warthogs -- read me first file.  2018-06-04]: #
+[@PACKAGE@ -- read me first file.  @DATE@]: #
 
-xde-theme-warthogs
+@PACKAGE@
 ===============
 
-Package `xde-theme-warthogs-1.1.1` was released under CCPL:cc-by-nc-nd-3.0
-license 2018-06-04.
+Package `@PACKAGE@-@VERSION@` was released under CCPL:cc-by-nc-nd-3.0
+license @DATE@.
 
 This is a theme and a set of backgrounds for the _XDE (X Desktop
 Environment)_ that provides a set of backgrounds on
@@ -12,17 +12,17 @@ a Warthogs theme.
 This theme uses the Squared-green style from the [`xde-styles`][11]
 package.
 
-The source for `xde-theme-warthogs` is hosted on [GitHub][1].
+The source for `@PACKAGE@` is hosted on [GitHub][1].
 
 
 Release
 -------
 
-This is the `xde-theme-warthogs-1.1.1` package, released 2018-06-04.
+This is the `@PACKAGE@-@VERSION@` package, released @DATE@.
 This release, and the latest version, can be obtained from [GitHub][1],
 using a command such as:
 
-    $> git clone https://github.com/bbidulock/xde-theme-warthogs.git
+    $> git clone https://github.com/bbidulock/@PACKAGE@.git
 
 Please see the [RELEASE][3] and [NEWS][4] files for release notes and
 history of user visible changes for the current version, and the
@@ -44,17 +44,17 @@ Please see the license in the file [COPYING][10].
 Quick Start
 -----------
 
-The quickest and easiest way to get `xde-theme-warthogs` up and
+The quickest and easiest way to get `@PACKAGE@` up and
 running is to run the following commands:
 
-    $> git clone https://github.com/bbidulock/xde-theme-warthogs.git
-    $> cd xde-theme-warthogs
+    $> git clone https://github.com/bbidulock/@PACKAGE@.git
+    $> cd @PACKAGE@
     $> ./autogen.sh
     $> ./configure
     $> make
     $> make DESTDIR="$pkgdir" install
 
-This will configure, compile and install `xde-theme-warthogs` the
+This will configure, compile and install `@PACKAGE@` the
 quickest.  For those who like to spend the extra 15 seconds reading
 `./configure --help`, some compile time options can be turned on and off
 before the build.
@@ -79,6 +79,11 @@ Report issues on GitHub [here][2].
 Samples
 -------
 
+Following is a sample screenshot of the theme taken under the [ADWM][13]
+window manager:
+
+![adwm.jpg](scrot/adwm.jpg "Wallpaper #5")
+
 Following are the eight wallpapers included in the theme:
 
 ![warthogs_formation.jpg](images/warthogs_formation.jpg "Wallpaper #1")
@@ -92,17 +97,18 @@ Following are the eight wallpapers included in the theme:
 
 
 
-[1]: https://github.com/bbidulock/xde-theme-warthogs
-[2]: https://github.com/bbidulock/xde-theme-warthogs/issues
-[3]: https://github.com/bbidulock/xde-theme-warthogs/blob/master/RELEASE
-[4]: https://github.com/bbidulock/xde-theme-warthogs/blob/master/NEWS
-[5]: https://github.com/bbidulock/xde-theme-warthogs/blob/master/ChangeLog
-[6]: https://github.com/bbidulock/xde-theme-warthogs/blob/master/TODO
-[7]: https://github.com/bbidulock/xde-theme-warthogs/blob/master/COMPLIANCE
-[8]: https://github.com/bbidulock/xde-theme-warthogs/blob/master/INSTALL
-[9]: https://github.com/bbidulock/xde-theme-warthogs/blob/master/LICENSE
-[10]: https://github.com/bbidulock/xde-theme-warthogs/blob/master/COPYING
+[1]: https://github.com/bbidulock/@PACKAGE@
+[2]: https://github.com/bbidulock/@PACKAGE@/issues
+[3]: https://github.com/bbidulock/@PACKAGE@/blob/@BRANCH@/RELEASE
+[4]: https://github.com/bbidulock/@PACKAGE@/blob/@BRANCH@/NEWS
+[5]: https://github.com/bbidulock/@PACKAGE@/blob/@BRANCH@/ChangeLog
+[6]: https://github.com/bbidulock/@PACKAGE@/blob/@BRANCH@/TODO
+[7]: https://github.com/bbidulock/@PACKAGE@/blob/@BRANCH@/COMPLIANCE
+[8]: https://github.com/bbidulock/@PACKAGE@/blob/@BRANCH@/INSTALL
+[9]: https://github.com/bbidulock/@PACKAGE@/blob/@BRANCH@/LICENSE
+[10]: https://github.com/bbidulock/@PACKAGE@/blob/@BRANCH@/COPYING
 [11]: https://github.com/bbidulock/xde-styles
 [12]: https://github.com/bbidulock/xde-ctools
+[13]: https://bbidulock.github.io/adwm
 
 [ vim: set ft=markdown sw=4 tw=72 nocin nosi fo+=tcqlorn spell: ]: #

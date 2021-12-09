@@ -1,4 +1,34 @@
-# created with git log --stat=76 | fmt -sct -w80
+# created with git log --stat=76 -M -C -500|fmt -sct -w80
+
+commit 5416bcd1786aabbb8dfac7137f363c4faf83c1c1
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Jun 4 04:12:27 2018 -0600
+
+    wrong prefix
+
+ configure.ac       | 4 ++--
+ configure.template | 4 ++--
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+
+commit d41eb4cbdf0f37da421fdd0d2fb1afd89cc16c73
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Jun 4 04:02:59 2018 -0600
+
+    more ignores
+
+ .gitignore | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit fe23d404c0ea1f4eca9743ff1b96089a6f6bf1c7
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Jun 4 04:02:11 2018 -0600
+
+    change version
+
+ ChangeLog    | 15 +++++++++++++++
+ README       |  4 ++--
+ configure.ac |  2 +-
+ 3 files changed, 18 insertions(+), 3 deletions(-)
 
 commit b9ea38457c152629bfe9d94632e5c37b4ce3477f
 Author: Brian Bidulock <bidulock@openss7.org>

@@ -1,3 +1,6 @@
+---
+layout: default
+---
 [xde-theme-warthogs -- read me first file.  2018-06-04]: #
 
 xde-theme-warthogs

@@ -95,6 +95,14 @@ Following are the eight wallpapers included in the theme:
 ![razorback_range.jpg](images/razorback_range.jpg "Wallpaper #7")
 ![warthog_front.jpg](images/warthog_front.jpg "Wallpaper #8")
 
+Following is one additional wallpaper that may be used to customize the
+theme:
+
+![warthog_runway.jpg](images/warthog_runway.jpg "Additional Image #1")
+
+Also, see some of the additional images in the [Airforce][14] theme for
+some additional warthog wallpapers.
+
 
 
 [1]: https://github.com/bbidulock/xde-theme-warthogs
@@ -110,5 +118,6 @@ Following are the eight wallpapers included in the theme:
 [11]: https://github.com/bbidulock/xde-styles
 [12]: https://github.com/bbidulock/xde-ctools
 [13]: https://bbidulock.github.io/adwm
+[14]: https://bbidulock.github.io/xde-theme-airforce
 
 [ vim: set ft=markdown sw=4 tw=72 nocin nosi fo+=tcqlorn spell: ]: #

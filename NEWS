@@ -1,12 +1,29 @@
-xde-theme-warthogs -- history of user-visible changes.  2018-06-04
+xde-theme-warthogs -- history of user-visible changes.  2021-12-08
 
-Release xde-theme-warthogs-1.1.1 released 2018-06-04
-----------------------------------------------------
+Release xde-theme-warthogs-1.2 released 2021-12-08
+--------------------------------------------------
 
-git shortlog -e -n -w80,6,8 1.1...HEAD
+git tag -n100 -l 1.2
 
-Brian Bidulock <bidulock@openss7.org> (1):
+1.2             Maintenance Release 1.2
+
+    This is the third release of the xde-theme-warthogs package. This
+    package contains a theme and a set of backgrounds for the XDE (X
+    Desktop Environment) that provides a set of backgrounds on an A-10
+    Warthog theme.
+
+    This release is a maintenance release that updates to the build
+    process, autoconf tool chain, and markdown documentation.
+
+    Included in the release is an autoconf tarball for building the package
+    from source. See the NEWS and TODO file in the release for more
+    information. Please report problems to the issues list on GitHub.
+
+git shortlog -e -n -w80,6,8 1.1...1.2
+
+Brian Bidulock <bidulock@openss7.org> (2):
       wrong prefix
+      update build for gh-pages
 
 
 Release xde-theme-warthogs-1.1 released 2018-06-04

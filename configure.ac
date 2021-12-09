@@ -2,8 +2,8 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ(2.69)
-AC_INIT([xde-theme-warthogs],[1.1.1],[https://github.com/bbidulock/xde-theme-warthogs],[xde-theme-warthogs],[https://github.com/bbidulock/xde-theme-warthogs/issues])
-AC_REVISION([1.1.1])
+AC_INIT([xde-theme-warthogs],[1.2],[https://github.com/bbidulock/xde-theme-warthogs],[xde-theme-warthogs],[https://github.com/bbidulock/xde-theme-warthogs/issues])
+AC_REVISION([1.2])
 
 # set better defaults
 AC_PREFIX_DEFAULT([/usr])
@@ -16,17 +16,17 @@ fi
 AC_CONFIG_SRCDIR([configure.ac])
 AC_CONFIG_AUX_DIR([scripts])
 
-DATE='2018-06-04'
+DATE='2021-12-08'
 AC_SUBST([DATE])
 
-MDOCDATE='June 4, 2018'
+MDOCDATE='December 8, 2021'
 AC_SUBST([MDOCDATE])
 
-BRANCH='master'
+BRANCH='1.2'
 AC_SUBST([BRANCH])
 
 # Initialize Automake
-AM_INIT_AUTOMAKE([1.16 dist-lzip no-dist-gzip std-options -Wall color-tests silent-rules tar-pax])
+AM_INIT_AUTOMAKE([gnits 1.16 dist-lzip no-dist-gzip std-options -Wall color-tests silent-rules tar-pax])
 AM_MAINTAINER_MODE
 AM_SILENT_RULES([yes])
 

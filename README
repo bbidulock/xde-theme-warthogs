@@ -1,10 +1,10 @@
-[xde-theme-warthogs -- read me first file.  2021-12-08]: #
+[xde-theme-warthogs -- read me first file.  2021-12-09]: #
 
 xde-theme-warthogs
 ===============
 
-Package `xde-theme-warthogs-1.2` was released under CCPL:cc-by-nc-nd-3.0
-license 2021-12-08.
+Package `xde-theme-warthogs-1.2.3` was released under CCPL:cc-by-nc-nd-3.0
+license 2021-12-09.
 
 This is a theme and a set of backgrounds for the _XDE (X Desktop
 Environment)_ that provides a set of backgrounds on
@@ -18,7 +18,7 @@ The source for `xde-theme-warthogs` is hosted on [GitHub][1].
 Release
 -------
 
-This is the `xde-theme-warthogs-1.2` package, released 2021-12-08.
+This is the `xde-theme-warthogs-1.2.3` package, released 2021-12-09.
 This release, and the latest version, can be obtained from [GitHub][1],
 using a command such as:
 
@@ -39,6 +39,24 @@ This release is published under CCPL:cc-by-nc-nd-3.0 (primarily because
 the base styles used to develop these styles were licensed under this
 license).
 Please see the license in the file [COPYING][10].
+
+Please note that xde-theme-warthogs is no longer released as
+a tarball and is only released as git commits; use:
+
+    $> ./autogen.sh
+    $> ./configure --version
+
+to determine the version associated with a given commit in the
+checked out working directory.  Note that this is the same version
+as executing:
+
+    $> git describe|sed 's,[-_],.,g;s,\.g*,,'
+
+in the checked out working directory.
+
+Note that only HEAD commits are stable: do not attempt to use any
+other commit as only HEAD is synchronized with other packages in
+the suite.
 
 
 Quick Start
@@ -107,14 +125,14 @@ some additional warthog wallpapers.
 
 [1]: https://github.com/bbidulock/xde-theme-warthogs
 [2]: https://github.com/bbidulock/xde-theme-warthogs/issues
-[3]: https://github.com/bbidulock/xde-theme-warthogs/blob/1.2/RELEASE
-[4]: https://github.com/bbidulock/xde-theme-warthogs/blob/1.2/NEWS
-[5]: https://github.com/bbidulock/xde-theme-warthogs/blob/1.2/ChangeLog
-[6]: https://github.com/bbidulock/xde-theme-warthogs/blob/1.2/TODO
-[7]: https://github.com/bbidulock/xde-theme-warthogs/blob/1.2/COMPLIANCE
-[8]: https://github.com/bbidulock/xde-theme-warthogs/blob/1.2/INSTALL
-[9]: https://github.com/bbidulock/xde-theme-warthogs/blob/1.2/LICENSE
-[10]: https://github.com/bbidulock/xde-theme-warthogs/blob/1.2/COPYING
+[3]: https://github.com/bbidulock/xde-theme-warthogs/blob/1.2.3/RELEASE
+[4]: https://github.com/bbidulock/xde-theme-warthogs/blob/1.2.3/NEWS
+[5]: https://github.com/bbidulock/xde-theme-warthogs/blob/1.2.3/ChangeLog
+[6]: https://github.com/bbidulock/xde-theme-warthogs/blob/1.2.3/TODO
+[7]: https://github.com/bbidulock/xde-theme-warthogs/blob/1.2.3/COMPLIANCE
+[8]: https://github.com/bbidulock/xde-theme-warthogs/blob/1.2.3/INSTALL
+[9]: https://github.com/bbidulock/xde-theme-warthogs/blob/1.2.3/LICENSE
+[10]: https://github.com/bbidulock/xde-theme-warthogs/blob/1.2.3/COPYING
 [11]: https://github.com/bbidulock/xde-styles
 [12]: https://github.com/bbidulock/xde-ctools
 [13]: https://bbidulock.github.io/adwm

@@ -2,8 +2,8 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ(2.69)
-AC_INIT([xde-theme-warthogs],[1.2],[https://github.com/bbidulock/xde-theme-warthogs],[xde-theme-warthogs],[https://github.com/bbidulock/xde-theme-warthogs/issues])
-AC_REVISION([1.2])
+AC_INIT([xde-theme-warthogs],[1.2.3],[https://github.com/bbidulock/xde-theme-warthogs],[xde-theme-warthogs],[https://github.com/bbidulock/xde-theme-warthogs/issues])
+AC_REVISION([1.2.3])
 
 # set better defaults
 AC_PREFIX_DEFAULT([/usr])
@@ -16,13 +16,13 @@ fi
 AC_CONFIG_SRCDIR([configure.ac])
 AC_CONFIG_AUX_DIR([scripts])
 
-DATE='2021-12-08'
+DATE='2021-12-09'
 AC_SUBST([DATE])
 
-MDOCDATE='December 8, 2021'
+MDOCDATE='December 9, 2021'
 AC_SUBST([MDOCDATE])
 
-BRANCH='1.2'
+BRANCH='1.2.3'
 AC_SUBST([BRANCH])
 
 # Initialize Automake
